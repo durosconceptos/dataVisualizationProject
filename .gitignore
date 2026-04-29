@@ -1,0 +1,116 @@
+# Virtual Environment
+data_scraping/
+venv/
+env/
+ENV/
+.env
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (pueden ser muy grandes)
+*.feather
+*.h5
+*.hdf5
+data/
+raw_data/
+processed_data/
+output/
+*.gz
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Pytest
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+.settings/
+.project
+.pydevproject
+.classpath
+*.iml
+
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# IDE extensions
+.pylintrc
+.flake8
+setup.cfg
+tox.ini
+
+# Chrome/Selenium drivers
+chromedriver
+chromedriver.exe
+geckodriver
+geckodriver.exe
+*.whl
+
+# Scraping temporary files
+scrape_cache/
+.selenium/
+
+# Credentials and secrets (NEVER commit these!)
+.env.local
+.env.*.local
+secrets.json
+credentials.json
+*.key
+*.pem
